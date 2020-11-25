@@ -50,7 +50,7 @@ public class GuessTheWord {
             int masked;
             if (userWord.equals(computerWord)) {
                 repeater = 0;
-                System.out.println("\n ВЫ УГАДАЛИ\n");
+                System.out.println("\n ВЫ УГАДАЛИ\nЗагаданное слово: " + computerWord);
             } else {
                 for (int i = 0; i < computerWord.length(); i++) {
                     masked = 0;
