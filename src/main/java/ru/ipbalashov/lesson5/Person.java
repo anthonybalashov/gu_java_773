@@ -20,11 +20,11 @@ public class Person {
         this.age = age;
     }
 
-    public void getInfo(){
+    public void getInfo() {
         System.out.printf("\n FIO: %s, position: %s, email: %s, phone: %s, salary: %d, age: %d", fio, position, email, phone, salary, age);
     }
 
-    public int getAge(){
+    public int getAge() {
         return age;
     }
 }
